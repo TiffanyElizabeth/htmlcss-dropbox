@@ -43,6 +43,7 @@
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
+    background-color: lavender;
 }
 
 .row {
@@ -189,10 +190,51 @@ h1 {
     font-size: 40px;
 }
 
-
 /*----------------
     MAIN
 ------------------*/
+.divider {
+    margin-top: 120px;
+    border-top: 2px solid #F5F5F5;
+}
+
+.section-1 {
+}
+
+h3 {
+    font-size: 34px;
+    margin: 60px 0px;
+}
+
+.billing {
+    padding-bottom: 30px;
+}
+
+/*.custom-radio {
+    border: 1px solid red;
+}*/
+
+.s1-row {
+    gap: 50px;
+}
+
+.s1-col {
+    max-width: calc(100%/3);
+}
+
+.plan-type {
+    border: 1px solid black;
+    width: 300px;
+    text-align: center;
+    padding: 12px 0px;
+}
+
+.s1-col-body {
+    width: 300px;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
 
 /*----------------
     FOOTER
