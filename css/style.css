@@ -305,6 +305,7 @@ hr {
 ------------------*/
 .section-2 {
     margin-top: 200px;
+    margin-bottom: 140px;
 }
 
 .s2-col-left {
@@ -329,6 +330,32 @@ hr {
     font-size: 14px;
     padding: 10px;
     cursor: pointer;
+}
+
+/*----------------
+    MAIN - SECTION 3
+------------------*/
+.s3 {
+    justify-content: space-between;
+}
+
+.s3-col {
+    width: 30%;
+}
+
+.s3-col img {
+    width: 100%;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+.s3-details {
+    font-size: 16px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
 }
 /*----------------
     FOOTER
