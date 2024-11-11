@@ -355,8 +355,17 @@ h4 {
     font-size: 16px;
     padding-top: 30px;
     padding-bottom: 30px;
-
 }
+
+/*----------------
+    MAIN - SECTION 4
+------------------*/
+.s4 {
+    max-width: 600px;
+    margin-top: 140px;
+    margin-bottom: 200px;
+}
+
 /*----------------
     FOOTER
 ------------------*/
