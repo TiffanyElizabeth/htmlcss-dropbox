@@ -34,6 +34,7 @@
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
+    background-color: green;
     /* padding-left: 20px;
     padding-right: 20px; */
 }
@@ -46,6 +47,7 @@
 
 .row {
     display: flex;
+    flex-direction: row;
 }
 
 .gap-10 {
@@ -97,7 +99,6 @@ body {
     cursor: pointer;
     border: none;
     font-size: 14px;
-
 }
 
 /*----------------
@@ -110,6 +111,7 @@ header {
     padding: 20px;
     border-bottom: 2px solid #D0D9E0;
     position: sticky;
+    background: white;
     top: 0px;
     left: 0px;
 }
@@ -141,6 +143,51 @@ nav {
     display: flex;
 }
 
+/*----------------
+    HERO
+------------------*/
+
+.hero {
+    background-color: #B7D2E7;
+    max-height: 735px;
+}
+
+h1 {
+    padding-top: 100px;
+    padding-bottom: 20px;
+    font-size: 65px;
+    max-width: 1050px;
+}
+
+.hrow {
+    position: relative;
+    left: 0px;
+    bottom: -20px;
+}
+
+.hcol-left {
+    max-width: calc(100%/3);
+    padding-right: 32px;
+    max-height: 400px;
+}
+
+.hcol-right {
+    max-width: calc(100%/3*2);
+    max-height: 400px;
+}
+
+.hero-img {
+    max-width: 800px;
+}
+
+.hbtn {
+    margin: 32px 0px;
+}
+
+.arrow {
+    margin-top: 75px;
+    font-size: 40px;
+}
 
 
 /*----------------
