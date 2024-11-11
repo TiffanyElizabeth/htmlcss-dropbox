@@ -30,12 +30,18 @@
 /*----------------
     LAYOUT
 ------------------*/
-.container {
+.container-large {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
     /* padding-left: 20px;
     padding-right: 20px; */
+}
+
+.container-small {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .row {
@@ -66,7 +72,7 @@ body {
 /*----------------
     BUTTONS
 ------------------*/
-.btn {
+/*.btn {
     background-color: transparent;
     font-family: inherit;
     border: none;
@@ -82,11 +88,60 @@ body {
 .btn-primary {
     background-color: lightcoral;
     color: #fff;
+}*/
+
+.btn-blue {
+    background-color: #0061FE;
+    color: white;
+    padding: 6px 12px;
+    cursor: pointer;
+    border: none;
+    font-size: 14px;
+
 }
 
 /*----------------
     HEADER
 ------------------*/
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 2px solid #D0D9E0;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+}
+
+.header-left {
+    display: flex;
+}
+
+nav {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.main-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-left: 30px;
+}
+
+.main-nav ul a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.header-right {
+    display: flex;
+}
+
+
 
 /*----------------
     MAIN
