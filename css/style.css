@@ -96,16 +96,16 @@ body {
 .btn-blue {
     background-color: #0061FE;
     color: white;
-    padding: 12px 12px;
+    padding: 10px 12px;
     cursor: pointer;
     border: none;
     font-size: 14px;
     font-weight: lighter;
+    text-align: center;
 }
 
 .btn-blue-wide {
     width: 80%;
-    text-align: center;
     margin: 0px 30px;
 }
 
@@ -200,14 +200,11 @@ h1 {
 }
 
 /*----------------
-    MAIN
+    MAIN - SECTION 1
 ------------------*/
 .divider {
     margin-top: 120px;
     border-top: 2px solid #F5F5F5;
-}
-
-.section-1 {
 }
 
 h2 {
@@ -282,6 +279,30 @@ hr {
 .fa-check {
     color: #0061FE;
 }
+
+.s1-col-big {
+    width: 100%;
+    border: 1px solid #D0CFD4;
+    font-size: 15px;
+    margin-top: 50px;
+}
+
+.col-big-custom-plan {
+    width: 70%;
+}
+
+.col-sm-custom-plan {
+    width: 30%
+}
+
+.custom-plan {
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+/*----------------
+    MAIN - SECTION 2
+------------------*/
 
 /*----------------
     FOOTER
