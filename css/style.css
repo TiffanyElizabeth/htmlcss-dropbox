@@ -1,17 +1,4 @@
 /*----------------
-    DEBUG
-------------------*/
-.debug .container {
-    border: 2px dashed blueviolet;
-}
-
-.debug .row .col {
-    border: 2px dashed lightcoral;
-    background-color: rgba(240, 128, 128, 0.2);
-    min-height: 200px;
-}
-
-/*----------------
     RESET
 ------------------*/
 * {
@@ -21,48 +8,25 @@
 }
 
 /*----------------
-    COMMONS
-------------------*/
-.img-fluid {
-    max-width: 100%;
-}
-
-/*----------------
     LAYOUT
 ------------------*/
 .container-large {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    background-color: green;
-    /* padding-left: 20px;
-    padding-right: 20px; */
+    /*background-color: green;*/
 }
 
 .container-small {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
-    background-color: lavender;
+    /*background-color: lavender;*/
 }
 
 .row {
     display: flex;
     flex-direction: row;
-}
-
-.gap-10 {
-    gap: 10px;
-}
-.gap-20 {
-    gap: 20px;
-}
-.gap-30 {
-    gap: 30px;
-}
-
-.col {
-    flex-grow: 1;
 }
 
 /*----------------
@@ -75,24 +39,6 @@ body {
 /*----------------
     BUTTONS
 ------------------*/
-/*.btn {
-    background-color: transparent;
-    font-family: inherit;
-    border: none;
-    padding: 6px 12px;
-    cursor: pointer;
-}
-
-.btn-large {
-    padding: 10px 20px;
-    font-size: 16px;
-}
-
-.btn-primary {
-    background-color: lightcoral;
-    color: #fff;
-}*/
-
 .btn-blue {
     background-color: #0061FE;
     color: white;
@@ -119,7 +65,7 @@ header {
     padding: 20px;
     border-bottom: 2px solid #D0D9E0;
     position: sticky;
-    background: white;
+    background-color: white;
     top: 0px;
     left: 0px;
     z-index: 100;
@@ -156,7 +102,6 @@ nav {
 /*----------------
     HERO
 ------------------*/
-
 .hero {
     background-color: #B7D2E7;
     max-height: 735px;
@@ -221,12 +166,10 @@ h2 {
 }*/
 
 .s1-row {
-    /* gap: 47px; */
     justify-content: space-between;
 }
 
 .s1-col {
-    /* max-width: calc(100%/3); */
     width: 30%;
     border: 1px solid #D0CFD4;
     font-size: 15px;
@@ -234,7 +177,6 @@ h2 {
 
 .plan-type {
     border-bottom: 1px solid #D0CFD4;
-    /*width: 300px;*/
     text-align: center;
     padding: 12px 0px;
 }
@@ -267,7 +209,7 @@ h3 {
     padding: 40px;
 }
 
-hr {
+.s1-line {
     max-width: 20px;
     margin: 0 40px;
 }
@@ -330,6 +272,7 @@ hr {
     font-size: 14px;
     padding: 10px;
     cursor: pointer;
+    background-color: white;
 }
 
 /*----------------
@@ -369,3 +312,39 @@ h4 {
 /*----------------
     FOOTER
 ------------------*/
+footer {
+    background-color: black;
+    color: white;
+}
+
+.footer-top {
+    justify-content: space-between;
+}
+.footer-col {
+    width: calc(100%/6);
+    padding: 100px 0px;
+}
+
+h5 {
+    font-size: 24px;
+    padding-bottom: 25px;
+}
+
+.footer-col ul li {
+    list-style: none;
+    line-height: 2.5;
+}
+
+.footer-col ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-line {
+    color: white;
+    width: 150px;
+}
+
+.language {
+    padding: 50px 0px;
+}
