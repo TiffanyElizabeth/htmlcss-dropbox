@@ -303,7 +303,33 @@ hr {
 /*----------------
     MAIN - SECTION 2
 ------------------*/
+.section-2 {
+    margin-top: 200px;
+}
 
+.s2-col-left {
+    width: 60%;
+}
+
+.s2-col-left img {
+    width: 100%;
+}
+
+.s2-col-right {
+    width: 40%;
+    padding: 20px 50px;
+}
+
+.s2-details {
+    font-size: 16px;
+    padding: 20px 0px;
+}
+
+.btn-partner {
+    font-size: 14px;
+    padding: 10px;
+    cursor: pointer;
+}
 /*----------------
     FOOTER
 ------------------*/
