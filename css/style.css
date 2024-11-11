@@ -96,7 +96,7 @@ body {
 .btn-blue {
     background-color: #0061FE;
     color: white;
-    padding: 10px 12px;
+    padding: 12px 12px;
     cursor: pointer;
     border: none;
     font-size: 14px;
@@ -104,7 +104,9 @@ body {
 }
 
 .btn-blue-wide {
-    width: 100%;
+    width: 80%;
+    text-align: center;
+    margin: 0px 30px;
 }
 
 /*----------------
@@ -222,29 +224,31 @@ h2 {
 }*/
 
 .s1-row {
-    gap: 47px;
+    /* gap: 47px; */
+    justify-content: space-between;
 }
 
 .s1-col {
-    max-width: calc(100%/3);
+    /* max-width: calc(100%/3); */
+    width: 30%;
     border: 1px solid #D0CFD4;
     font-size: 15px;
 }
 
 .plan-type {
     border-bottom: 1px solid #D0CFD4;
-    width: 300px;
+    /*width: 300px;*/
     text-align: center;
     padding: 12px 0px;
 }
 
 .plan-details {
-    margin: 0px 30px;
+    padding: 0px 40px;
     line-height: 2.0;
 }
 
 h3 {
-    margin-top: 30px;
+    padding-top: 30px;
     font-size: 24px;
 }
 
@@ -263,15 +267,20 @@ h3 {
 }
 
 .buy-now {
-    margin: 30px;
+    padding: 40px;
 }
 
 hr {
-    max-width: 50px;
+    max-width: 20px;
+    margin: 0 40px;
 }
 
 .list-title {
-    margin-top: 50px;
+    padding-top: 50px;
+}
+
+.fa-check {
+    color: #0061FE;
 }
 
 /*----------------
