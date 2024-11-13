@@ -161,6 +161,10 @@ h2 {
     padding-bottom: 30px;
 }
 
+.billing label {
+    padding-right: 50px;
+}
+
 /*.custom-radio {
     border: 1px solid red;
 }*/
@@ -240,6 +244,11 @@ h3 {
 .custom-plan {
     padding-top: 60px;
     padding-bottom: 30px;
+}
+
+.btn-custom-plan {
+    margin-top: 30px;
+    padding: 10px 20px;
 }
 
 /*----------------
